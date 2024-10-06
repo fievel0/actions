@@ -20,7 +20,7 @@ jobs:
       run: cat hola.txt
 
   other:
-    needs: [hola]
+   
     runs-on: ubuntu-latest
     
     steps:
