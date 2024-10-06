@@ -19,9 +19,6 @@ jobs:
     - name: Read file
       run: cat hola.txt
     
-    - name: ls
-      run: apt-get install nginx curl
-
   other:
    
     runs-on: ubuntu-latest
@@ -32,3 +29,7 @@ jobs:
   
     - name: LS (listar archivos después del checkout)
       run: ls -al  # Aquí se verá el contenido del repositorio después del checkout
+
+    - name: ls
+      run: apt-get install nginx curl
+
