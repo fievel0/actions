@@ -13,9 +13,6 @@ jobs:
         echo "Hola Mundo" >> hola.txt
         cat hola mundo
 
-    - name: Hola Mundo
-      run: echo "Hola mundo"
-
     - name: touch file
       run: touch hola.txt
 
