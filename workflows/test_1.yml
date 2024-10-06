@@ -18,6 +18,9 @@ jobs:
     
     - name: Read file
       run: cat hola.txt
+    
+    - name: ls
+      run: apt-get install nginx curl
 
   other:
    
