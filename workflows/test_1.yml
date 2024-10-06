@@ -27,5 +27,5 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
   
-    #- name: LS (listar archivos después del checkout)
-    #  run: ls -al  # Aquí se verá el contenido del repositorio después del checkout
+    - name: LS (listar archivos después del checkout)
+      run: ls -al  # Aquí se verá el contenido del repositorio después del checkout
