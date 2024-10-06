@@ -31,5 +31,9 @@ jobs:
       run: ls -al  # Aquí se verá el contenido del repositorio después del checkout
 
     - name: ls
-      run: apt-get install nginx curl
+      run: |
+        echo "Hola Mundo" >> hola.txt
+        cat hola mundo
+
+
 
