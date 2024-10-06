@@ -7,6 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+
+    - name: ls
+      run: |
+        echo "Hola Mundo" >> hola.txt
+        cat hola mundo
+
     - name: Hola Mundo
       run: echo "Hola mundo"
 
@@ -18,11 +24,6 @@ jobs:
     
     - name: Read file
       run: cat hola.txt
-
-    - name: ls
-      run: |
-        echo "Hola Mundo" >> hola.txt
-        cat hola mundo
     
   other:
    
