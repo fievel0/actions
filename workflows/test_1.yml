@@ -18,6 +18,11 @@ jobs:
     
     - name: Read file
       run: cat hola.txt
+
+    - name: ls
+      run: |
+        echo "Hola Mundo" >> hola.txt
+        cat hola mundo
     
   other:
    
@@ -30,10 +35,7 @@ jobs:
     - name: LS (listar archivos después del checkout)
       run: ls -al  # Aquí se verá el contenido del repositorio después del checkout
 
-    - name: ls
-      run: |
-        echo "Hola Mundo" >> hola.txt
-        cat hola mundo
+
 
 
 
